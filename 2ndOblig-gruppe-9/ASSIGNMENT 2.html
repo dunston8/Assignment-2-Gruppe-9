@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazine-Like Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu-bar {
+            background-color: #df851f;
+            color: #fff;
+            padding: 2px;
+            text-align: center;
+            height: 70px;
+        
+        }
+
+        .menu-item {
+            display: inline-flex;
+            margin-right: 20px;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .magazine-page {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .page-heading {
+            font-size: 36px;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+        }
+
+        .sub-heading {
+            font-size: 24px;
+            font-weight: bold;
+            color: #666;
+            margin-top: 20px;
+        }
+
+        .author {
+            font-size: 18px;
+            color: #777;
+            text-align: right;
+        }
+
+        .page-content {
+            font-size: 18px;
+            color: #444;
+            margin-top: 20px;
+        }
+
+        .logo {
+            width: 300px; 
+            height: 1px;
+        }
+
+        .img {
+            width: 600px;
+            height: 400px;
+            position:relative;
+            margin-left: 480px;
+        }
+        
+        .image-credits {
+            font-size: 10px;
+            margin-left: 480px;
+            
+        }
+    </style>
+</head>
+<body>
+
+    
+    <!-- Menu bar -->
+    <div class="menu-bar">
+        <h1 class="logo">Navn</h1>
+        <div class="menu-item">Tech</div>
+        <div class="menu-item">Forums</div>
+        <div class="menu-item">About Us</div>
+        <div class="menu-item">Contact</div>
+    </div>
+
+
+    <!-- HTML content -->
+    <div class="magazine-page">
+        <h1 class="page-heading">Hovedoverskrift</h1>
+        <h2 class="sub-heading">Artikkeloverskrift</h2>
+        <p id="author" class="author">By forfatter</p>
+
+        <img src="img/image.jpg" alt="Desktop Keyboard & Mouse" class="img">
+        <p class="image-credits">Image by Josh Sorenson</p>
+
+        <p class="page-content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac justo id quam congue tincidunt. Cras sit amet augue a erat consectetur tristique. 
+            Sed at odio nec risus vehicula congue. Suspendisse potenti. Sed mattis dolor in ex rhoncus iaculis.
+        </p>
+        <h2 class="sub-heading">Sub-title</h2>
+        <p class="page-content">
+            Integer hendrerit semper felis, ac gravida mi feugiat at. Fusce in suscipit orci. Sed bibendum justo eget dui ultrices, at venenatis justo tincidunt.
+            Duis euismod sapien nec scelerisque malesuada.
+        </p>
+    </div>
+</body>
+</html>
